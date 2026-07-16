@@ -56,3 +56,16 @@ void insertionSort()
         }
     }
 }
+
+void output() // prosedur output
+{
+    cout << endl;                                     // memberi baris baru
+    cout << "=====================" << endl;          // tampilan elemnt yang sudah di urut
+    cout << "Element Yang Sudah Di Urut" << endl;
+    cout << "=====================" << endl;
+
+    for (int i = 0; i < n; i++) // looping untuk mendisplay isi arr yang sudah di urut
+    {
+        cout << "Data ke " << i + 1 << " : " << arr[i] << endl; // untuk mendisplay isi arr yang sudah di urut
+    }
+}
