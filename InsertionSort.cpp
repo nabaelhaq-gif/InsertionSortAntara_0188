@@ -69,3 +69,10 @@ void output() // prosedur output
         cout << "Data ke " << i + 1 << " : " << arr[i] << endl; // untuk mendisplay isi arr yang sudah di urut
     }
 }
+
+int main()
+{
+    input();         // memanggil prosedur input()
+    insertionSort(); // memanggil prosedur insertionSort()
+    output();        // memanggil prosedur output()
+}
